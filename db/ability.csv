@@ -1,0 +1,268 @@
+AbilityId,AbilityName,Effect
+1,stench,Helps repel wild POKéMON.
+2,drizzle,Summons rain in battle.
+3,speed-boost,Gradually boosts SPEED.
+4,battle-armor,Blocks critical hits.
+5,sturdy,Negates 1-hit KO attacks.
+6,damp,Prevents self-destruction.
+7,limber,Prevents paralysis.
+8,sand-veil,Ups evasion in a sandstorm.
+9,static,Paralyzes on contact.
+10,volt-absorb,Turns electricity into HP.
+11,water-absorb,Changes water into HP.
+12,oblivious,Prevents attraction.
+13,cloud-nine,Negates weather effects.
+14,compound-eyes,Raises accuracy.
+15,insomnia,Prevents sleep.
+16,color-change,Changes type to foe’s move.
+17,immunity,Prevents poisoning.
+18,flash-fire,Powers up if hit by fire.
+19,shield-dust,Prevents added effects.
+20,own-tempo,Prevents confusion.
+21,suction-cups,Firmly anchors the body.
+22,intimidate,Lowers the foe’s ATTACK.
+23,shadow-tag,Prevents the foe’s escape.
+24,rough-skin,Hurts to touch.
+25,wonder-guard,“Super effective” hits.
+26,levitate,Not hit by GROUND attacks.
+27,effect-spore,Leaves spores on contact.
+28,synchronize,Passes on status problems.
+29,clear-body,Prevents ability reduction.
+30,natural-cure,Heals upon switching out.
+31,lightning-rod,Draws electrical moves.
+32,serene-grace,Promotes added effects.
+33,swift-swim,Raises SPEED in rain.
+34,chlorophyll,Raises SPEED in sunshine.
+35,illuminate,Encounter rate increases.
+36,trace,Copies special ability.
+37,huge-power,Raises ATTACK.
+38,poison-point,Poisons foe on contact.
+39,inner-focus,Prevents flinching.
+40,magma-armor,Prevents freezing.
+41,water-veil,Prevents burns.
+42,magnet-pull,Traps STEEL-type POKéMON.
+43,soundproof,Avoids sound-based moves.
+44,rain-dish,Slight HP recovery in rain.
+45,sand-stream,Summons a sandstorm.
+46,pressure,Raises foe’s PP usage.
+47,thick-fat,Heat-and-cold protection.
+48,early-bird,Awakens quickly from sleep.
+49,flame-body,Burns the foe on contact.
+50,run-away,Makes escaping easier.
+51,keen-eye,Prevents loss of accuracy.
+52,hyper-cutter,Prevents ATTACK reduction.
+53,pickup,May pick up items.
+54,truant,Moves only every two turns.
+55,hustle,Trades accuracy for power.
+56,cute-charm,Infatuates on contact.
+57,plus,Powers up with MINUS.
+58,minus,Powers up with PLUS.
+59,forecast,Changes with the weather.
+60,sticky-hold,Prevents item theft.
+61,shed-skin,Heals the body by shedding.
+62,guts,Ups ATTACK if suffering.
+63,marvel-scale,Ups DEFENSE if suffering.
+64,liquid-ooze,Draining causes injury.
+65,overgrow,Ups GRASS moves in a pinch.
+66,blaze,Ups FIRE moves in a pinch.
+67,torrent,Ups WATER moves in a pinch.
+68,swarm,Ups BUG moves in a pinch.
+69,rock-head,Protects the Pokémon from recoil damage.
+70,drought,Summons sunlight in battle.
+71,arena-trap,Prevents fleeing.
+72,vital-spirit,Prevents sleep.
+73,white-smoke,Prevents ability reduction.
+74,pure-power,Raises ATTACK.
+75,shell-armor,Blocks critical hits.
+76,air-lock,Negates weather effects.
+77,tangled-feet,Raises evasion if the Pokémon is confused.
+78,motor-drive,Raises Speed if hit by an Electric-type move.
+79,rivalry,Raises Attack if the foe is of the same gender.
+80,steadfast,Raises Speed each time the Pokémon flinches.
+81,snow-cloak,Raises evasion in a hailstorm.
+82,gluttony,Encourages the early use of a held Berry.
+83,anger-point,Raises Attack upon taking a critical hit.
+84,unburden,Raises Speed if a held item is used.
+85,heatproof,Weakens the power of Fire-type moves.
+86,simple,The Pokémon is prone to wild stat changes.
+87,dry-skin,Reduces HP if it is hot. Water restores HP.
+88,download,Adjusts power according to the foe’s ability.
+89,iron-fist,Boosts the power of punching moves.
+90,poison-heal,Restores HP if the Pokémon is poisoned.
+91,adaptability,Powers up moves of the same type.
+92,skill-link,Increases the frequency of multi-strike moves.
+93,hydration,Heals status problems if it is raining.
+94,solar-power,"Boosts Sp. Atk, but lowers HP in sunshine."
+95,quick-feet,Boosts Speed if there is a status problem.
+96,normalize,All the Pokémon’s moves become the Normal type.
+97,sniper,Powers up moves if they become critical hits.
+98,magic-guard,The Pokémon only takes damage from attacks.
+99,no-guard,Ensures the Pokémon and its foe’s attacks land.
+100,stall,The Pokémon moves after even slower foes.
+101,technician,Powers up the Pokémon’s weaker moves.
+102,leaf-guard,Prevents status problems in sunny weather.
+103,klutz,The Pokémon can’t use any held items.
+104,mold-breaker,Moves can be used regardless of abilities.
+105,super-luck,Heightens the critical-hit ratios of moves.
+106,aftermath,Damages the foe landing the finishing hit.
+107,anticipation,Senses the foe’s dangerous moves.
+108,forewarn,Determines what moves the foe has.
+109,unaware,Ignores any change in ability by the foe.
+110,tinted-lens,Powers up “not very effective” moves.
+111,filter,Powers down super­ effective moves.
+112,slow-start,Temporarily halves Attack and Speed.
+113,scrappy,Enables moves to hit Ghost-type foes.
+114,storm-drain,The Pokémon draws in all Water-type moves.
+115,ice-body,The Pokémon regains HP in a hailstorm.
+116,solid-rock,Reduces damage from supereffective attacks.
+117,snow-warning,The Pokémon summons a hailstorm in battle.
+118,honey-gather,The Pokémon may gather Honey from somewhere.
+119,frisk,The Pokémon can check the foe’s held item.
+120,reckless,Powers up moves that have recoil damage.
+121,multitype,Changes type to match the held Plate.
+122,flower-gift,Powers up party Pokémon when it is sunny.
+123,bad-dreams,Reduces a sleeping foe’s HP.
+124,pickpocket,Steals an item when hit by another Pokémon.
+125,sheer-force,Removes added effects to increase move damage.
+126,contrary,Makes stat changes have an opposite effect.
+127,unnerve,Makes the foe nervous and unable to eat Berries.
+128,defiant,When its stats are lowered its Attack increases.
+129,defeatist,Lowers stats when HP becomes half or less.
+130,cursed-body,May disable a move used on the Pokémon.
+131,healer,May heal an ally’s status conditions.
+132,friend-guard,Reduces damage done to allies.
+133,weak-armor,Physical attacks lower Defense and raise Speed.
+134,heavy-metal,Doubles the Pokémon’s weight.
+135,light-metal,Halves the Pokémon’s weight.
+136,multiscale,Reduces damage when HP is full.
+137,toxic-boost,Powers up physical attacks when poisoned.
+138,flare-boost,Powers up special attacks when burned.
+139,harvest,May create another Berry after one is used.
+140,telepathy,Anticipates an ally’s attack and dodges it.
+141,moody,Raises one stat and lowers another.
+142,overcoat,Protects the Pokémon from damage from weather.
+143,poison-touch,May poison targets when a Pokémon makes contact.
+144,regenerator,Restores a little HP when withdrawn from battle.
+145,big-pecks,Protects the Pokémon from Defense-lowering attacks.
+146,sand-rush,Boosts the Pokémon’s Speed in a sandstorm.
+147,wonder-skin,Makes status-changing moves more likely to miss.
+148,analytic,Boosts move power when the Pokémon moves last.
+149,illusion,Comes out disguised as the Pokémon in back.
+150,imposter,It transforms itself into the Pokémon it is facing.
+151,infiltrator,Passes through the foe’s barrier and strikes.
+152,mummy,Contact with this Pokémon spreads this Ability.
+153,moxie,Boosts Attack after knocking out any Pokémon.
+154,justified,Raises Attack when hit by a Dark-type move.
+155,rattled,Some move types scare it and boost its Speed.
+156,magic-bounce,Reflects status- changing moves.
+157,sap-sipper,Boosts Attack when hit by a Grass-type move.
+158,prankster,Gives priority to a status move.
+159,sand-force,Boosts certain moves’ power in a sandstorm.
+160,iron-barbs,Inflicts damage to the Pokémon on contact.
+161,zen-mode,Changes the Pokémon’s shape when HP is halved.
+162,victory-star,Boosts the accuracy of its allies and itself.
+163,turboblaze,Moves can be used regardless of Abilities.
+164,teravolt,Moves can be used regardless of Abilities.
+165,aroma-veil,Protects allies from attacks that limit their move choices.
+166,flower-veil,Prevents lowering of ally Grass-type Pokémon’s stats.
+167,cheek-pouch,Restores HP as well when the Pokémon eats a Berry.
+168,protean,Changes the Pokémon’s type to the type of the move it’s using.
+169,fur-coat,Halves damage from physical moves.
+170,magician,The Pokémon steals the held item of a Pokémon it hits with a move.
+171,bulletproof,Protects the Pokémon from some ball and bomb moves.
+172,competitive,Boosts the Sp. Atk stat when a stat is lowered.
+173,strong-jaw,The Pokémon’s strong jaw gives it tremendous biting power.
+174,refrigerate,Normal-type moves become Ice-type moves.
+175,sweet-veil,Prevents itself and ally Pokémon from falling asleep.
+176,stance-change,The Pokémon changes form depending on how it battles.
+177,gale-wings,Gives priority to Flying-type moves.
+178,mega-launcher,Powers up aura and pulse moves.
+179,grass-pelt,Boosts the Defense stat in Grassy Terrain.
+180,symbiosis,The Pokémon can pass an item to an ally.
+181,tough-claws,Powers up moves that make direct contact.
+182,pixilate,Normal-type moves become Fairy-type moves.
+183,gooey,Contact with the Pokémon lowers the attacker’s Speed stat.
+184,aerilate,Normal-type moves become Flying-type moves.
+185,parental-bond,Parent and child attack together.
+186,dark-aura,Powers up each Pokémon’s Dark-type moves.
+187,fairy-aura,Powers up each Pokémon’s Fairy-type moves.
+188,aura-break,The effects of “Aura” Abilities are reversed.
+189,primordial-sea,Affects weather and nullifies any Fire-type attacks.
+190,desolate-land,Affects weather and nullifies any Water-type attacks.
+191,delta-stream,Affects weather and eliminates all of the Flying type’s weaknesses.
+192,stamina,Boosts the Defense stat when hit by an attack.
+193,wimp-out,The Pokémon cowardly switches out when its HP becomes half or less.
+194,emergency-exit,"The Pokémon, sensing danger, switches out when its HP becomes half or less."
+195,water-compaction,Boosts the Pokémon’s Defense stat sharply when hit by a Water-type move.
+196,merciless,The Pokémon’s attacks become critical hits if the target is poisoned.
+197,shields-down,"When its HP becomes half or less, the Pokémon’s shell breaks and it becomes aggressive."
+198,stakeout,Doubles the damage dealt to the target’s replacement if the target switches out.
+199,water-bubble,Lowers the power of Fire-type moves done to the Pokémon and prevents the Pokémon from getting a burn.
+200,steelworker,Powers up Steel-type moves.
+201,berserk,Boosts the Pokémon’s Sp. Atk stat when it takes a  hit that causes its HP to become half or less.
+202,slush-rush,Boosts the Pokémon’s Speed stat in a hailstorm.
+203,long-reach,The Pokémon uses its moves without making contact with the target.
+204,liquid-voice,All sound-based moves become Water-type moves.
+205,triage,Gives priority to a healing move.
+206,galvanize,Normal-type moves become Electric-type moves. The power of those moves is boosted a little.
+207,surge-surfer,Doubles the Pokémon’s Speed stat on Electric Terrain.
+208,schooling,"When it has a lot of HP, the Pokémon forms a powerful school. It stops schooling when its HP is low."
+209,disguise,"Once per battle, the shroud that covers the Pokémon can protect it from an attack."
+210,battle-bond,"Defeating an opposing Pokémon strengthens the Pokémon’s bond with its Trainer, and it becomes Ash-Greninja. Water Shuriken gets more powerful."
+211,power-construct,Other Cells gather to aid when its HP becomes half or less. Then the Pokémon changes its form to Complete Forme.
+212,corrosion,The Pokémon can poison the target even if it’s a Steel or Poison type.
+213,comatose,It’s always drowsing and will never wake up. It can attack without waking up.
+214,queenly-majesty,"Its majesty pressures the opposing Pokémon, making it unable to attack using priority moves."
+215,innards-out,Damages the attacker landing the finishing hit by the amount equal to its last HP.
+216,dancer,"When another Pokémon uses a dance move, it can use a dance move following it regardless of its Speed."
+217,battery,Powers up ally Pokémon’s special moves.
+218,fluffy,"Halves the damage taken from moves that make direct contact, but doubles that of Fire-type moves."
+219,dazzling,"Surprises the opposing Pokémon, making it unable to attack using priority moves."
+220,soul-heart,Boosts its Sp. Atk stat every time a Pokémon faints.
+221,tangling-hair,Contact with the Pokémon lowers the attacker’s Speed stat.
+222,receiver,The Pokémon copies the Ability of a defeated ally.
+223,power-of-alchemy,The Pokémon copies the Ability of a defeated ally.
+224,beast-boost,The Pokémon boosts its most proficient stat each time it knocks out a Pokémon.
+225,rks-system,Changes the Pokémon’s type to match the memory disc it holds.
+226,electric-surge,Turns the ground into Electric Terrain when the Pokémon enters a battle.
+227,psychic-surge,Turns the ground into Psychic Terrain when the Pokémon enters a battle.
+228,misty-surge,Turns the ground into Misty Terrain when the Pokémon enters a battle.
+229,grassy-surge,Turns the ground into Grassy Terrain when the Pokémon enters a battle.
+230,full-metal-body,Prevents other Pokémon’s moves or Abilities from lowering the Pokémon’s stats.
+231,shadow-shield,Reduces the amount of damage the Pokémon takes while its HP is full.
+232,prism-armor,Reduces the power of supereffective attacks taken.
+233,neuroforce,Powers up moves that are super effective.
+234,intrepid-sword,Boosts the Pokémon’s Attack stat when the Pokémon enters a battle.
+235,dauntless-shield,Boosts the Pokémon’s Defense stat when the Pokémon enters a battle.
+236,libero,Changes the Pokémon’s type to the type of the move it’s about to use.
+237,ball-fetch,"If the Pokémon is not holding an item, it will fetch the Poké Ball from the first failed throw of the battle."
+238,cotton-down,"When the Pokémon is hit by an attack, it scatters cotton fluff around and lowers the Speed stat of all Pokémon except itself."
+239,propeller-tail,Ignores the effects of opposing Pokémon’s Abilities and moves that draw in moves.
+240,mirror-armor,Bounces back only the stat-lowering effects that the Pokémon receives.
+241,gulp-missile,"When the Pokémon uses Surf or Dive, it will come back with prey. When it takes damage, it will spit out the prey to attack."
+242,stalwart,Ignores the effects of opposing Pokémon’s Abilities and moves that draw in moves.
+243,steam-engine,Boosts the Pokémon’s Speed stat drastically if hit by a Fire- or Water-type move.
+244,punk-rock,Boosts the power of sound-based moves. The Pokémon also takes half the damage from these kinds of moves.
+245,sand-spit,The Pokémon creates a sandstorm when it’s hit by an attack.
+246,ice-scales,"The Pokémon is protected by ice scales, which halve the damage taken from special moves."
+247,ripen,Ripens Berries and doubles their effect.
+248,ice-face,"The Pokémon’s ice head can take a physical attack as a substitute, but the attack also changes the Pokémon’s appearance. The ice will be restored when it hails."
+249,power-spot,Just being next to the Pokémon powers up moves.
+250,mimicry,Changes the Pokémon’s type depending on the terrain.
+251,screen-cleaner,"When the Pokémon enters a battle, the effects of Light Screen, Reflect, and Aurora Veil are nullified for both opposing and ally Pokémon."
+252,steely-spirit,Powers up ally Pokémon’s Steel-type moves.
+253,perish-body,"When hit by a move that makes direct contact, the Pokémon and the attacker will faint after three turns unless they switch out of battle."
+254,wandering-spirit,The Pokémon exchanges Abilities with a Pokémon that hits it with a move that makes direct contact.
+255,gorilla-tactics,Boosts the Pokémon’s Attack stat but only allows the use of the first selected move.
+256,neutralizing-gas,"If the Pokémon with Neutralizing Gas is in the battle, the effects of all Pokémon’s Abilities will be nullified or will not be triggered."
+257,pastel-veil,Protects the Pokémon and its ally Pokémon from being poisoned.
+258,hunger-switch,"The Pokémon changes its form, alternating between its Full Belly Mode and Hangry Mode after the end of each turn."
+259,quick-draw,Enables the Pokémon to move first occasionally.
+260,unseen-fist,"If the Pokémon uses moves that make direct contact, it can attack the target even if the target protects itself."
+261,curious-medicine,"When the Pokémon enters a battle, it scatters medicine from its shell, which removes all stat changes from allies."
+262,transistor,Powers up Electric-type moves.
+263,dragons-maw,Powers up Dragon-type moves.
+264,chilling-neigh,"When the Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat."
+265,grim-neigh,"When the Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat."
+266,as-one-glastrier,This Ability combines the effects of both Calyrex’s Unnerve Ability and Glastrier’s Chilling Neigh Ability.
+267,as-one-spectrier,This Ability combines the effects of both Calyrex’s Unnerve Ability and Spectrier’s Grim Neigh Ability.

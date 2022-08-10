@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+package type;
+
+option go_package = "proto/type";
+
+import "google/api/annotations.proto";
+
+service Type {
+    rpc ListTypes(ListTypesRequest) returns (ListTypesResponse) {
+        option (google.api.http) = {
+            get: "/types"
+        };
+    }
+    rpc GetPokemonsOfType(GetPokemonsOfTypeRequest) returns (GetPokemonsOfTypeResponse) {
+        option (google.api.http) = {
+            get: "/type/pokemon/{type_name}"
+        };
+    }
+    rpc GetTypeInfo(GetTypeInfoRequest) returns (GetTypeInfoResponse) {
+        option (google.api.http) = {
+            get: "/type/{type_name}"
+        };
+    };
+}
+
+message TypeInfo {
+    string type_id = 1;
+    string type_name = 2;
+    repeated string no_damage_to = 3;
+    repeated string half_damage_to = 4;
+    repeated string double_damage_to = 5;
+    repeated string no_damage_from = 6;
+    repeated string half_damage_from = 7;
+    repeated string double_damage_from = 8;
+}
+
+message PokemonsOfType {
+    string type_id = 1;
+    string type_name = 2;
+    repeated string pokemon_name = 3;
+}
+
+message ListTypesRequest {}
+
+message ListTypesResponse {
+    repeated TypeInfo type_infos = 1;
+}
+
+message GetPokemonsOfTypeRequest {
+    string type_name = 1;
+}
+
+message GetPokemonsOfTypeResponse {
+    PokemonsOfType pokemons_of_type = 1;
+}
+
+message GetTypeInfoRequest {
+    string type_name = 1;
+}
+
+message GetTypeInfoResponse {
+    TypeInfo type_info = 1;
+}

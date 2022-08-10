@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+package ability;
+
+option go_package = "proto/ability";
+
+import "google/api/annotations.proto";
+
+service Ability {
+    rpc ListAbilities(ListAbilitiesRequeset) returns (ListAbilitiesResponse) {
+        option (google.api.http) = {
+            get: "/abilities"
+        };
+    }
+    rpc GetAbilityByID(GetAbilityByIDRequest) returns (GetAbilityByIDResponse) {
+        option (google.api.http) = {
+            get: "/ability_id/{ability_id}"
+        };
+    }
+    rpc GetAbilityByName(GetAbilityByNameRequest) returns (GetAbilityByNameResponse) {
+        option (google.api.http) = {
+            get: "/ability_name/{ability_name}"
+        };
+    }
+}
+
+message AbilityInfo {
+    string ability_id = 1;
+    string ability_name = 2;
+    string effect = 3;
+    repeated string pokemon_name = 4;
+}
+
+message ListAbilitiesRequeset {}
+
+message ListAbilitiesResponse {
+    repeated AbilityInfo ability_infos = 1;
+}
+
+message GetAbilityByIDRequest {
+    string ability_id = 1;
+}
+
+message GetAbilityByIDResponse {
+    AbilityInfo ability_info = 1;
+}
+
+message GetAbilityByNameRequest {
+    string ability_name = 1;
+}
+
+message GetAbilityByNameResponse {
+    AbilityInfo ability_info = 1;
+}

@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+package pokemon;
+
+option go_package = "proto/pokemon";
+
+import "google/api/annotations.proto";
+
+service Pokemon {
+    rpc ListPokemons(ListPokemonsRequest) returns (ListPokemonsResponse) {
+        option (google.api.http) = {
+            get: "/pokemons"
+        };
+    }
+    rpc GetPokemonByID(GetPokemonByIDRequest) returns (GetPokemonByIDResponse) {
+        option (google.api.http) = {
+            get: "/pokemon_id/{pokemon_id}"
+        };
+    }
+    rpc GetPokemonByName(GetPokemonByNameRequest) returns (GetPokemonByNameResponse) {
+        option (google.api.http) = {
+            get: "/pokemon_name/{pokemon_name}"
+        };
+    };
+}
+
+message PokemonInfo {
+    string pokemon_id = 1;
+    string pokemon_name = 2;
+    repeated string type = 3;
+    repeated string ability = 4;
+}
+
+message ListPokemonsRequest {}
+
+message ListPokemonsResponse {
+    repeated PokemonInfo pokemon_infos = 1;
+}
+
+message GetPokemonByIDRequest {
+    string pokemon_id = 1;
+}
+
+message GetPokemonByIDResponse {
+    PokemonInfo pokemon_info = 1;
+}
+
+message GetPokemonByNameRequest {
+    string pokemon_name = 1;
+}
+
+message GetPokemonByNameResponse {
+    PokemonInfo pokemon_info = 1;
+}
